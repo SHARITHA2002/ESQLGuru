@@ -1,0 +1,7 @@
+services:
+  api:
+    image: node:20
+    command: ["bash", "-lc", "echo API placeholder"]
+  web:
+    image: node:20
+    command: ["bash", "-lc", "echo Web placeholder"]
