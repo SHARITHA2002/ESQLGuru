@@ -1,6 +1,6 @@
 import type { RuleResult } from './namingRule.ts';
 
-const hardcodedPattern = /(PASSWORD|TOKEN|SECRET)\s*=\s*['\"][^'\"]+['\"]/i;
+const hardcodedPattern = /(PASSWORD|TOKEN|SECRET)\s*=\s*['"][^'"]+['"]/i;
 
 export function hardcodedValuesRule(code: string): RuleResult[] {
   const issues: RuleResult[] = [];
