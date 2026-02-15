@@ -1,3 +1,3 @@
 export function logger(message: string) {
-  return message;
+  console.log(`[ESQLGuru API] ${message}`);
 }
