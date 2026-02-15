@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 set -euo pipefail
-npm run dev
+echo "Start dev servers for web and api"
